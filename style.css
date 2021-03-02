@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: rgb(26, 15, 1);
+    text-decoration: none;
+}
+.menu {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-color:rgb(9, 210, 245)
+}
+header h1 {
+    float: left;
+    padding: 20px 75px;
+    color:#72fac6 ;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color: rgb(239, 241, 241);
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+.slide {
+    max-width: auto;
+    height: 690px;
+    position: relative;
+}
+.item-1,.item-2 {
+	position: absolute;
+    display: block;
+	top: 100px;
+    width: 60%;
+    font-size: 30px;
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+.item-1{
+	animation-name: anim-1;
+}
+.item-2{
+	animation-name: anim-2;
+}
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0.5; }
+  8.3%,25% { left: 25%; opacity: 0.5; }
+  33.33%, 100% { left: 110%; opacity: 0.5; }
+}
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0.5; }
+  41.63%, 58.29% { left: 25%; opacity: 0.5; }
+  66.66%, 100% { left: 110%; opacity: 0.5; }
+}
+.slide1,.slide2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slide1 {
+    background: url(Gambar/Gambar1.jpg) no-repeat center;
+    background-size: cover;
+    animation: fade 10s infinite;
+    -webkit-animation: fade 5s infinite;
+}
+.slide2 {
+    background: url(Gambar/Gambar2.jpg) no-repeat center;
+    background-size: cover;
+    animation: fade2 10s infinite;
+    -webkit-animation: fade 5s infinite;
+}
+@keyframes fade {
+    0% {opacity: 1;}
+    33.333% {opacity: 0.5;}
+    66.666% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fade2 {
+    0% {opacity: 0.5;}
+    33.333% {opacity: 1;}
+    66.666% {opacity: 0;}
+    100% {opacity: 0;}
+}
+section {
+    padding: 50px 0;
+}
+section h2 {
+    text-align: center;
+    padding: 40px 0;
+    color: rgb(14, 225, 253);
+}
+#about p {
+    color: black;
+    word-spacing: 3px;
+    line-height: 25px;
+    text-align: center;
+}
+#services {
+    text-align: center;
+    margin: 10px;
+}
+.isi {
+    margin :10px;
+}
+.box {
+    color: rgb(36, 209, 252);
+}
+.box .colom-3 {
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.box .colom-3 h4 {
+    margin: 30px 0;
+}
+.masukkan{
+    margin: 150px;
+}
+.judulmasukkan {
+    text-align: left;
+}
+.jdlmasukkan{
+    width: 650px;
+}
+form {
+    margin-top: 50px;
+    text-align: center;
+    color: darkturquoise;
+}
+.email {
+    margin-top: 30px;
+}
+p {
+    margin-top: 10px;
+}
+button {
+    margin-top: 20px;
+    background-color: darkturquoise;
+}
+#card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 10px 200px;
+    margin-top: 100px;
+    width: 500px;
+}
+.latar {
+    background-image: url(Gambar/Gambar3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+}
+.h2 {
+    text-align: center;
+    color: darkturquoise;
+}
+h3 {
+    margin-left: 20px;
+    color: darkturquoise;
+}
+.login form input{
+    width: 90px 80px;
+    padding: 8px 15px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #0f010f;
+    color: rgb(15, 11, 11);
+    font-size: 10px;
+}
+.nama {
+    color: #0eccee;
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    margin-top: 3px;
+    text-align: right;
+}
+#forgot-pass {
+    color: #14d6e4;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: 50px;
+    margin-left: 300px;
+}
+#tidak-memilikiakun{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#melakukan-regist{
+    color: darkturquoise;
+    text-decoration: underline;
+}
+.mendaftar {
+    background-image: url(Gambar/gambar);
+}
+.daftar {
+    text-align: left;
+    margin: 10px;
+    margin-top: 100px;
+    padding: 1px 30px;
+    background: #fbfbfb;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 520px;
+    margin: 10px 200px;
+    margin-top: 100px;
+    width: 500px;
+}
+.judulregist{
+    text-align: center;
+    padding: 20px 30px 5px;
+}
+#register {
+    float: left;
+}
+.box .colom-2 {
+    width: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    border: darkturquoise;
+}
+.icon1 {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.box .colom-2 h4 {
+    margin: 30px 0;
+    text-align: center;
+}
+.button1 {
+   margin-left: 30px;
+   text-align: center;
+}
