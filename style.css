@@ -183,6 +183,11 @@ h3 {
     margin-left: 20px;
     color: darkturquoise;
 }
+.box{
+    margin: 85px;
+    text-align: center;
+    background-color: darkturquoise;
+}
 .login form input{
     width: 90px 80px;
     padding: 8px 15px;
